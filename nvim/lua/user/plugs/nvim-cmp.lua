@@ -1,0 +1,5 @@
+vim.fn['plug#']('hrsh7th/cmp-nvim-lsp')
+vim.fn['plug#']('hrsh7th/cmp-buffer')
+vim.fn['plug#']('hrsh7th/cmp-path')
+vim.fn['plug#']('hrsh7th/cmp-cmdline')
+vim.fn['plug#']('hrsh7th/nvim-cmp')
