@@ -26,25 +26,25 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- Window Navigation
-nmap('<A-h>', '<C-w>h')
-nmap('<A-j>', '<C-w>j')
-nmap('<A-k>', '<C-w>k')
-nmap('<A-l>', '<C-w>l')
+nmap('<C-h>', '<C-w>h')
+nmap('<C-j>', '<C-w>j')
+nmap('<C-k>', '<C-w>k')
+nmap('<C-l>', '<C-w>l')
 
 -- Window Movement
-nmap('<A-w>h', '<C-w>H')
-nmap('<A-w>j', '<C-w>J')
-nmap('<A-w>k', '<C-w>K')
-nmap('<A-w>l', '<C-w>L')
+nmap('<C-w>h', '<C-w>H')
+nmap('<C-w>j', '<C-w>J')
+nmap('<C-w>k', '<C-w>K')
+nmap('<C-w>l', '<C-w>L')
 
 -- Terminal Bindings
 tmap('<Esc>', '<C-\\><C-n>')
 -- Terminal Window Movement
-tmap('<A-h>', '<C-\\><C-n><C-w>h')
-tmap('<A-j>', '<C-\\><C-n><C-w>j')
-tmap('<A-k>', '<C-\\><C-n><C-w>k')
-tmap('<A-l>', '<C-\\><C-n><C-w>l')
-tmap('<A-w>h', '<C-\\><C-n><C-w>H')
-tmap('<A-w>j', '<C-\\><C-n><C-w>J')
-tmap('<A-w>k', '<C-\\><C-n><C-w>K')
-tmap('<A-w>l', '<C-\\><C-n><C-w>L')
+tmap('<C-h>', '<C-\\><C-n><C-w>h')
+tmap('<C-j>', '<C-\\><C-n><C-w>j')
+tmap('<C-k>', '<C-\\><C-n><C-w>k')
+tmap('<C-l>', '<C-\\><C-n><C-w>l')
+tmap('<C-w>h', '<C-\\><C-n><C-w>H')
+tmap('<C-w>j', '<C-\\><C-n><C-w>J')
+tmap('<C-w>k', '<C-\\><C-n><C-w>K')
+tmap('<C-w>l', '<C-\\><C-n><C-w>L')
