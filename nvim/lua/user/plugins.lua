@@ -6,6 +6,7 @@ end
 vim.call('plug#begin', '~/.config/nvim/plugged')
 
 luaPlug('tokyodark')
+luaPlug('sobrio')
 luaPlug('nvim-cmp')
 luaPlug('lspconfig')
 luaPlug('lua-snip')
