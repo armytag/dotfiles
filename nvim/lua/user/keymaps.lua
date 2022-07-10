@@ -20,6 +20,7 @@ nmap('<leader>o', 'm`o<Esc>``')
 nmap('<leader>O', 'm`O<Esc>``')
 nmap('<leader>vs', ':lua ReloadConfig()<CR>')
 nmap('<leader>gb', '<C-^>')
+nmap('<C-t>', ':vsp | term<Enter>')
 
 -- Splits
 vim.opt.splitbelow = true
