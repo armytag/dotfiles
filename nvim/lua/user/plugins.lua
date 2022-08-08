@@ -12,5 +12,7 @@ luaPlug('lspconfig')
 luaPlug('lua-snip')
 luaPlug('vim-godot')
 luaPlug('treesitter')
+luaPlug('plenary')
+luaPlug('telescope')
 
 vim.call('plug#end')
