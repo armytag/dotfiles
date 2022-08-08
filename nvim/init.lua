@@ -20,6 +20,7 @@ require('user.keymaps')
 require('user.plugins')
 require('user.lsp')
 require('user.nvim-cmp')
+require('user.luasnip')
 require('user.treesitter')
 
 -- Colors
