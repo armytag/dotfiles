@@ -4,10 +4,10 @@ end
 
 -- Language Servers
 local lspconfig = require('lspconfig')
-map('n', '<leader>df', ':lua vim.diagnostic.open_float()<CR>')
-map('n', '<leader>dk', ':lua vim.diagnostic.goto_prev()<CR>')
-map('n', '<leader>dj', ':lua vim.diagnostic.goto_next()<CR>')
-map('n', '<leader>dl', ':lua vim.diagnostic.setloclist()<CR>')
+map('n', '<leader>ef', ':lua vim.diagnostic.open_float()<CR>')
+map('n', '<leader>ek', ':lua vim.diagnostic.goto_prev()<CR>')
+map('n', '<leader>ej', ':lua vim.diagnostic.goto_next()<CR>')
+map('n', '<leader>el', ':lua vim.diagnostic.setloclist()<CR>')
 
 local lsp_map = function(bufnr, mode, key, value)
     vim.api.nvim_buf_set_keymap(bufnr, mode, key, value, { noremap = true, silent = true })
