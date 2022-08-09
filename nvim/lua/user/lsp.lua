@@ -63,7 +63,17 @@ local servers = {
     -- Python LSP Settings
     {
         name = 'pylsp',
-        settings = {},
+        settings = {
+            pylsp = {
+                configurationSources = { "flake8" },
+                plugins = {
+                    pylint = { enabled = false },
+                    flake8 = { enabled = true },
+                    pycodestyle = { enabled = false },
+                    pyflakes = { enabled = false },
+                },
+            },
+        },
     },
     -- Rust LSP Settings
     {
