@@ -14,5 +14,6 @@ luaPlug('vim-godot')
 luaPlug('treesitter')
 luaPlug('plenary')
 luaPlug('telescope')
+luaPlug('gitsigns')
 
 vim.call('plug#end')

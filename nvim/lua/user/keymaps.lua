@@ -49,3 +49,9 @@ tmap('<C-w>h', '<C-\\><C-n><C-w>H')
 tmap('<C-w>j', '<C-\\><C-n><C-w>J')
 tmap('<C-w>k', '<C-\\><C-n><C-w>K')
 tmap('<C-w>l', '<C-\\><C-n><C-w>L')
+
+-- Telescope
+nmap('<leader>ff', ':Telescope find_files<CR>')
+nmap('<leader>fg', ':Telescope live_grep<CR>')
+nmap('<leader>fb', ':Telescope buffers<CR>')
+nmap('<leader>fh', ':Telescope help_tags<CR>')

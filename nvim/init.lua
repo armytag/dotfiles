@@ -22,6 +22,7 @@ require('user.lsp')
 require('user.nvim-cmp')
 require('user.luasnip')
 require('user.treesitter')
+require('user.gitsigns')
 
 -- Colors
 vim.cmd('colorscheme tokyodark')
