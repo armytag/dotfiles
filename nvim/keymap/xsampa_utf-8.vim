@@ -141,3 +141,5 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;_j <char-0x02B2>  " palatalization
 ;'  <char-0x02B2>  " palatalization
 ;_w <char-0x02B7>  " labialized
+
+->  <char-0x2192>
