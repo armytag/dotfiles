@@ -26,3 +26,8 @@ vim.opt.shell = '/bin/zsh'
 -- Clipboard
 vim.opt.clipboard = 'unnamedplus'
 
+-- Language settings
+if(os.getenv("CONDA_PREFIX"))
+then
+    vim.g.python3_host_prog = os.getenv("CONDA_PREFIX") .. "/bin/python"
+end
