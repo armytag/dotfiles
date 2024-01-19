@@ -41,25 +41,29 @@ local servers = {
         settings = {},
     },
     -- Lua LSP Settings
---    {
---        name = 'sumneko_lua',
---        settings = {
---            Lua = {
---                runtime = {
---                    version = 'LuaJIT',
---                },
---                diagnostics = {
---                    globals = { 'vim' },
---                },
---                workspace = {
---                    library = vim.api.nvim_get_runtime_file('', true),
---                },
+    {
+        name = 'lua_ls',
+        settings = {
+            Lua = {
+                runtime = {
+                    version = 'LuaJIT',
+                },
+                diagnostics = {
+                    globals = { 'vim' },
+                },
+                workspace = {
+                    checkThirdParty = false,
+                    library = {
+                        vim.api.nvim_get_runtime_file('', true),
+                        "${3rd}/love2d/library",
+                    }
+                },
 --                telemetry = {
 --                    enable = false,
 --                },
---            },
---        },
---    },
+            },
+        },
+    },
     -- Python LSP Settings
     {
         name = 'pylsp',
