@@ -62,7 +62,7 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;E  <char-0x025B>  " open-mid front unrounded vowel
 ;F  <char-0x0271>  " labiodental nasal
 ;G  <char-0x0263>  " voiced velar fricative
-;G; <char-0x0281>  " voiced uvular fricative
+;G; <char-0x0262>  " voiced uvular plosive
 ;G;,    <char-0x029B>  " voiced uvular implosive
 ;H  <char-0x0265>  " labial-palatal approximant
 ;H; <char-0x029C>  " voiceless epiglottal fricative
