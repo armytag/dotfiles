@@ -17,7 +17,7 @@ d	<char-0x0064>  " voiced alveolar plosive
 ;d, <char-0x0257>  " voiced alveolar implosive
 e   <char-0x0065>  " close-mid front unrounded vowel
 f   <char-0x0066>  " voiceless labiodental fricative
-g   <char-0x0261>  " voiced velar plosive
+;g  <char-0x0261>  " voiced velar plosive
 ;g, <char-0x0260>  " voiced velar implosive
 h   <char-0x0068>  " voiceless glottal fricative
 ;h; <char-0x0266>  " voiced glottal fricative
@@ -33,7 +33,7 @@ n   <char-0x006E>  " alveolar nasal
 ;n' <char-0x0273>  " retroflex nasal
 o   <char-0x006F>  " close-mid back rounded vowel
 p	<char-0x0070>  " voiceless bilabial plosive
-;p; <char-0x027B>  " voiceless bilabial fricative
+;p; <char-0x0278>  " voiceless bilabial fricative
 q   <char-0x0071>  " voiceless uvular plosive
 r   <char-0x0072>  " alveolar trill
 ;r' <char-0x027D>  " retroflex flap
