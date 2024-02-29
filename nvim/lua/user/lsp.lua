@@ -86,6 +86,12 @@ local servers = {
             ['rust-analyzer'] = {},
         },
     },
+    -- Typescript LSP Settings
+    {
+        name = 'tsserver',
+        settings = {
+        },
+    },
 }
 
 for _, lsp in pairs(servers) do
