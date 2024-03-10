@@ -75,6 +75,7 @@ local servers = {
                     flake8 = { enabled = true },
                     pycodestyle = { enabled = false },
                     pyflakes = { enabled = false },
+                    pylsp_mypy = { enabled = true },
                 },
             },
         },
