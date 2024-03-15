@@ -72,7 +72,7 @@ local servers = {
                 configurationSources = { "flake8" },
                 plugins = {
                     pylint = { enabled = false },
-                    flake8 = { enabled = true },
+                    flake8 = { enabled = true, maxLineLength = 88 },
                     pycodestyle = { enabled = false },
                     pyflakes = { enabled = false },
                     pylsp_mypy = { enabled = true },
