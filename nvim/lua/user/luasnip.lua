@@ -73,7 +73,7 @@ ls.add_snippets("javascript", {
         i(4, "type"),
         t "} ",
         i(5, "param"),
-        t {"", " */", "funciton "},
+        t {"", " */", "function "},
         i(1, "function"),
         t "(",
         i(2, "params"),
