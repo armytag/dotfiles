@@ -87,7 +87,7 @@ local dyn_params = function (position, references)
 end
 
 ls.add_snippets("javascript", {
-    s( "doc", {
+    s( "fn", {
         t {"/**", " * "} ,
         i(3, "Description"),
         dyn_params(4, {2}),
