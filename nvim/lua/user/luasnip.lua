@@ -57,6 +57,7 @@ end)
 vim.keymap.set("n", "<leader>ss", "<cmd>source ~/.config/nvim/lua/user/luasnip.lua<CR>")
 
 -- Reset snippets
+require("luasnip.session.snippet_collection").clear_snippets "javascript"
 
 -- Lua snippets
 ls.add_snippets("lua", {
@@ -65,23 +66,19 @@ ls.add_snippets("lua", {
 
 -- Javascript snippets
 ls.add_snippets("javascript", {
-    s( "doc", fmt(
-        [[
-        /**
-        * {}
-        * @param {{{}}} {}
-        */
-        function {}({}) {{
-            {}
-        }}
-        ]],
-        {
-            i(1, "Description"),
-            i(2, "type"),
-            i(3, "param"),
-            i(4, "function"),
-            i(5, "params"),
-            i(6, ""),
-        }
-    )),
+    s( "doc", {
+        t {"/**", " *"} ,
+        i(3, "Description"),
+        t {"", " * @param {"},
+        i(4, "type"),
+        t "} ",
+        i(5, "param"),
+        t {"", " */", "funciton "},
+        i(1, "function"),
+        t "(",
+        i(2, "params"),
+        t {") {", "\t"},
+        i(0, ""),
+        t {"", "}"},
+    }),
 })
