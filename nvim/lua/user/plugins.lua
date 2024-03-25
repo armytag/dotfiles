@@ -15,5 +15,6 @@ luaPlug('treesitter')
 luaPlug('plenary')
 luaPlug('telescope')
 luaPlug('gitsigns')
+luaPlug('harpoon')
 
 vim.call('plug#end')

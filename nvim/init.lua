@@ -23,6 +23,7 @@ require('user.nvim-cmp')
 require('user.luasnip')
 require('user.treesitter')
 require('user.gitsigns')
+require('user.harpoon')
 
 -- Colors
 vim.cmd('colorscheme tokyodark')
