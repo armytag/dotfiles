@@ -90,18 +90,30 @@ local servers = {
     -- Typescript LSP Settings
     {
         name = 'tsserver',
+        cmd = {'typescript-language-server', '--stdio'},
         settings = {
         },
     },
 }
 
 for _, lsp in pairs(servers) do
-    lspconfig[lsp.name].setup {
-        on_attach = custom_attach,
-        flags = {
-            debounce_text_changes = 150,
-        },
-        settings = lsp.settings,
-    }
+    if lsp.cmd ~= nil then
+        lspconfig[lsp.name].setup {
+            on_attach = custom_attach,
+            flags = {
+                debounce_text_changes = 150,
+            },
+            cmd = lsp.cmd,
+            settings = lsp.settings,
+        }
+    else
+        lspconfig[lsp.name].setup {
+            on_attach = custom_attach,
+            flags = {
+                debounce_text_changes = 150,
+            },
+            settings = lsp.settings,
+        }
+    end
 end
 
