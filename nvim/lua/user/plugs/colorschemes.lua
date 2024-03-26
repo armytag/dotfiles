@@ -1,0 +1,5 @@
+vim.fn['plug#']('tiagovla/tokyodark.nvim')
+vim.fn['plug#']('folke/tokyonight.nvim')
+vim.fn['plug#']('sontungexpt/witch')
+vim.fn['plug#']('glepnir/zephyr-nvim')
+vim.fn['plug#']('cryptomilk/nightcity.nvim')

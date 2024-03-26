@@ -5,7 +5,8 @@ end
 
 vim.call('plug#begin', '~/.config/nvim/plugged')
 
-luaPlug('tokyodark')
+-- luaPlug('tokyodark')
+luaPlug('colorschemes')
 luaPlug('prism')
 luaPlug('nvim-cmp')
 luaPlug('lspconfig')
