@@ -26,4 +26,4 @@ require('user.gitsigns')
 require('user.harpoon')
 
 -- Colors
-vim.cmd('colorscheme nightcity-kabuki')
+require('user.custom-theme')
