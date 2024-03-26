@@ -26,4 +26,4 @@ require('user.gitsigns')
 require('user.harpoon')
 
 -- Colors
-vim.cmd('colorscheme tokyodark')
+require('user.custom-theme')
