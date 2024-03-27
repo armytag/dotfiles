@@ -1,2 +1,3 @@
-require('custom-theme').setup()
-vim.cmd('colorscheme tokyodark')
+-- require('custom-theme').setup()
+vim.cmd('set termguicolors')
+vim.cmd('colorscheme nightcity')
