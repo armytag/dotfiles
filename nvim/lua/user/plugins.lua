@@ -16,6 +16,8 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     -- plenary
     "nvim-lua/plenary.nvim",
+    -- Comment.nvim
+    "numToStr/Comment.nvim",
     -- treesitter
     {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     -- gitsigns
@@ -47,7 +49,12 @@ require("lazy").setup({
     "vimpostor/vim-prism",
     "sontungexpt/witch",
     "glepnir/zephyr-nvim",
+    -- Zen Mode
+    "folke/zen-mode.nvim",
+    "folke/twilight.nvim",
 })
+
+require('Comment').setup()
 -- luaPlug('colorschemes')
 -- luaPlug('custom-theme')
 -- luaPlug('prism')

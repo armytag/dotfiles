@@ -1,7 +1,0 @@
-vim.fn['plug#']('hrsh7th/nvim-cmp')
-vim.fn['plug#']('hrsh7th/cmp-buffer')
-vim.fn['plug#']('hrsh7th/cmp-path')
-vim.fn['plug#']('hrsh7th/cmp-nvim-lua')
-vim.fn['plug#']('hrsh7th/cmp-nvim-lsp')
-vim.fn['plug#']('hrsh7th/cmp-cmdline')
-vim.fn['plug#']('saadparwaiz1/cmp_luasnip')
