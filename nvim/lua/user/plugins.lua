@@ -39,7 +39,9 @@ require("lazy").setup({
     "L3MON4D3/LuaSnip",
     "saadparwaiz1/cmp_luasnip",
     -- harpoon2
-    {"ThePrimeagen/harpoon", branch = "harpoon2"},
+    {"ThePrimeagen/harpoon", branch = "harpoon2", requires = { {"neovim/plenary"} } },
+    -- Oil (file explorer)
+    {"stevearc/oil.nvim", dependencies = { "nvim-tree/nvim-web-devicons" } },
     -- vim-godot
     "habamax/vim-godot",
     -- Colorschemes
@@ -50,21 +52,13 @@ require("lazy").setup({
     "sontungexpt/witch",
     "glepnir/zephyr-nvim",
     -- Zen Mode
-    "folke/zen-mode.nvim",
+    { "folke/zen-mode.nvim", opts = { plugins = { twilight = { enabled = false } } } },
     "folke/twilight.nvim",
 })
 
 require('Comment').setup()
--- luaPlug('colorschemes')
--- luaPlug('custom-theme')
--- luaPlug('prism')
--- luaPlug('nvim-cmp')
--- luaPlug('lspconfig')
--- luaPlug('lua-snip')
--- luaPlug('vim-godot')
--- luaPlug('treesitter')
--- luaPlug('plenary')
--- luaPlug('telescope')
--- luaPlug('gitsigns')
--- luaPlug('harpoon')
-
+require('oil').setup({
+    -- Show hidden files
+    view_options = { show_hidden = true },
+})
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
