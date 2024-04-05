@@ -56,7 +56,16 @@ require("lazy").setup({
     "folke/twilight.nvim",
 })
 
-require('Comment').setup()
+require('Comment').setup({
+    toggler = {
+        line = '<space>cc',
+        block = '<space>CC'
+    },
+    opleader = {
+        line = '<space>c',
+        block = '<space>C',
+    },
+})
 require('oil').setup({
     -- Show hidden files
     view_options = { show_hidden = true },
