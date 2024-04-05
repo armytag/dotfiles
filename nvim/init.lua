@@ -10,7 +10,6 @@ _G.ReloadConfig = function()
             package.loaded[name] = nil
         end
     end
-
     dofile(vim.env.MYVIMRC)
 end
 
