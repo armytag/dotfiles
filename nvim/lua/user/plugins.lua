@@ -54,8 +54,14 @@ require("lazy").setup({
     -- Zen Mode
     { "folke/zen-mode.nvim", opts = { plugins = { twilight = { enabled = false } } } },
     "folke/twilight.nvim",
+    -- lualine
+    { "nvim-lualine/lualine.nvim", dependencies = { "nvim-tree/nvim-web-devicons" } },
+    -- supercollider
+    "davidgranstrom/scnvim",
+    { "madskjeldgaard/sc-scratchpad.nvim", dependencies = { "MunifTanjim/nui.nvim" } },
 })
 
+require('lualine').setup()
 require('Comment').setup({
     toggler = {
         line = '<space>cc',
@@ -71,3 +77,16 @@ require('oil').setup({
     view_options = { show_hidden = true },
 })
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+local scnvim = require('scnvim')
+scnvim.setup({
+    keymaps = {
+        ['<M-e>'] = scnvim.map('editor.send_line', {'i', 'n'}),
+        ['<C-e>'] = {
+            scnvim.map('editor.send_block', {'i', 'n'}),
+            scnvim.map('editor.send_selection', 'x'),
+        },
+        ['<C-k>'] = scnvim.map('signature.show', {'i', 'n'}),
+        ['<F1>'] = scnvim.map_expr('s.boot'),
+        ['<F2>'] = scnvim.map_expr('s.meter'),
+    }
+})

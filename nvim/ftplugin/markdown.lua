@@ -1,1 +1,1 @@
-vim.cmd('colorscheme prism')
+-- vim.cmd('colorscheme prism')
