@@ -51,6 +51,7 @@ require("lazy").setup({
     "vimpostor/vim-prism",
     "sontungexpt/witch",
     "glepnir/zephyr-nvim",
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     -- Zen Mode
     { "folke/zen-mode.nvim", opts = { plugins = { twilight = { enabled = false } } } },
     "folke/twilight.nvim",
