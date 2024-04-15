@@ -35,6 +35,11 @@ table.insert(lua_path, 'lua/?.lua')
 table.insert(lua_path, 'lua/?/init.lua')
 
 local servers = {
+    -- emmet-language-server
+    {
+        name = 'emmet_language_server',
+        settings = {}
+    },
     -- Godot GDScript LSP Settings
     {
         name = 'gdscript',
