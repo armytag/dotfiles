@@ -12,10 +12,10 @@ vim.opt.numberwidth = 4
 vim.go.scrolloff = 8
 
 -- Tabs & Indentation
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
+vim.opt.expandtab = false
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = -1
 vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.opt.signcolumn = 'yes'
@@ -29,5 +29,5 @@ vim.opt.clipboard = 'unnamedplus'
 -- Language settings
 if(os.getenv("CONDA_PREFIX"))
 then
-    vim.g.python3_host_prog = os.getenv("CONDA_PREFIX") .. "/bin/python"
+	vim.g.python3_host_prog = os.getenv("CONDA_PREFIX") .. "/bin/python"
 end
