@@ -20,6 +20,17 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.opt.signcolumn = 'yes'
 
+-- List characters (tab/trailing indicators)
+local space = "·"
+vim.opt.listchars:append {
+	tab = "│ ",
+	multispace = space,
+	lead = space,
+	trail = space,
+	nbsp = space
+}
+vim.opt.list = true
+
 -- Terminal and Shell
 vim.opt.shell = '/bin/zsh'
 
