@@ -9,10 +9,10 @@ loadkeymap
 " >>	<char-0x00BB>  " RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK [GREEK
 " CONSONANTS
 a   <char-0x0061>  " open front unrounded vowel
-b	<char-0x0062>  " voiced bilabial plosive
-;b,	<char-0x0253>  " voiced bilabial implosive
+b   <char-0x0062>  " voiced bilabial plosive
+;b, <char-0x0253>  " voiced bilabial implosive
 c   <char-0x0063>  " voiceless palatal plosive
-d	<char-0x0064>  " voiced alveolar plosive
+d   <char-0x0064>  " voiced alveolar plosive
 ;d' <char-0x0256>  " voiced retroflex plosive
 ;d, <char-0x0257>  " voiced alveolar implosive
 e   <char-0x0065>  " close-mid front unrounded vowel
@@ -32,7 +32,7 @@ m   <char-0x006D>  " bilabial nasal
 n   <char-0x006E>  " alveolar nasal
 ;n' <char-0x0273>  " retroflex nasal
 o   <char-0x006F>  " close-mid back rounded vowel
-p	<char-0x0070>  " voiceless bilabial plosive
+p   <char-0x0070>  " voiceless bilabial plosive
 ;p; <char-0x0278>  " voiceless bilabial fricative
 q   <char-0x0071>  " voiceless uvular plosive
 r   <char-0x0072>  " alveolar trill
@@ -42,7 +42,7 @@ r   <char-0x0072>  " alveolar trill
 s   <char-0x0073>  " voiceless alveolar fricative
 ;s' <char-0x0282>  " voiceless retroflex fricative
 ;s; <char-0x0255>  " voiceless alveolo-palatal fricative
-t	<char-0x0074>  " voiceless alveolar plosive
+t   <char-0x0074>  " voiceless alveolar plosive
 ;t' <char-0x0288>  " voiceless retroflex plosive
 u   <char-0x0075>  " close back rounded vowel
 v   <char-0x0076>  " voiced labiodental fricative
@@ -128,6 +128,13 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;=; <char-0x01C2>  " palatal click
 ;+; <char-0x0361>  " linkinɡ mark above
 ;-; <char-0x035C>  " linkinɡ mark below
+;^k <char-0x1D4F>  " superscript k
+;^n <char-0x207F>  " superscript n
+;^m <char-0x1D50>  " superscript m
+;^N <char-0x1D51>  " superscript ŋ
+;^? <char-0x02C0>  " superscript ʔ
+;^T <char-0x1DBF>  " superscript θ
+;^D <char-0x1D9E>  " superscript ð
 
 " COMBINING DIACRITICS
 ;_" <char-0x0308>  # centralized
@@ -135,7 +142,7 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;_> <char-0x02BC>  " ejective
 ;_] <char-0x031A>  " no audible release
 ;~  <char-0x0303>  " nasalization
-;_d	<char-0x032A>  " dental diacritic
+;_d <char-0x032A>  " dental diacritic
 ;_G <char-0x02E0>  " velarized
 ;_h <char-0x02B0>  " aspirated
 ;_j <char-0x02B2>  " palatalization
