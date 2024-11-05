@@ -138,9 +138,13 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;_d	<char-0x032A>  " dental diacritic
 ;_G <char-0x02E0>  " velarized
 ;_h <char-0x02B0>  " aspirated
+;_H <char-0x02B1>  " breathy voice
+;_~ <char-0x02F7>  " creaky voice
 ;_j <char-0x02B2>  " palatalization
 ;'  <char-0x02B2>  " palatalization
 ;_w <char-0x02B7>  " labialized
+;_;H    <char-0x0324>  " combining breathy voice
+;_;~    <char-0x0330>  " compbinig creaky voice
 ->  <char-0x2192>
 ;_' <char-0x0329>  " syllabic consonant below
 ;_;'    <char-0x030D>  " syllabic consonant above
