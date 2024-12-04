@@ -8,6 +8,10 @@ i   <char-0x1E92D>  " 𞤭
 e   <char-0x1E92B>  " 𞤫
 o   <char-0x1E92E>  " 𞤮
 a   <char-0x1E922>  " 𞤢
+ii  <char-0x1E92D><char-0x1E945>  " 𞤭𞥅
+ee  <char-0x1E92B><char-0x1E945>  " 𞤫𞥅
+oo  <char-0x1E92E><char-0x1E945>  " 𞤮𞥅
+aa  <char-0x1E922><char-0x1E944>  " 𞤢𞥄
 m   <char-0x1E925>  " 𞤥
 n   <char-0x1E932>  " 𞤲
 p   <char-0x1E928>  " 𞤨
@@ -27,6 +31,10 @@ I   <char-0x1E90B>  " 𞤋
 E   <char-0x1E909>  " 𞤉
 O   <char-0x1E90C>  " 𞤌
 A   <char-0x1E900>  " 𞤀
+II  <char-0x1E90B><char-0x1E945>  " 𞤋𞥅
+EE  <char-0x1E909><char-0x1E945>  " 𞤉𞥅
+OO  <char-0x1E90C><char-0x1E945>  " 𞤌𞥅
+AA  <char-0x1E900><char-0x1E944>  " 𞤀𞥄
 M   <char-0x1E903>  " 𞤃
 N   <char-0x1E910>  " 𞤐
 P   <char-0x1E906>  " 𞤆
