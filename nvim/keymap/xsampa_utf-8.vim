@@ -135,6 +135,7 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;^? <char-0x02C0>  " superscript ʔ
 ;^T <char-0x1DBF>  " superscript θ
 ;^D <char-0x1D9E>  " superscript ð
+;0  <char-0x2205>  " null sign ∅
 
 " COMBINING DIACRITICS
 ;_" <char-0x0308>  # centralized
