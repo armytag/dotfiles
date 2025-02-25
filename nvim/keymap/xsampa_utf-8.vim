@@ -151,7 +151,9 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;_j <char-0x02B2>  " palatalization
 ;'  <char-0x02B2>  " palatalization
 ;_w <char-0x02B7>  " labialized
+;_L <char-0x02E1>  " lateral release
 ;`  <char-0x0301>  " acute mark
+;_v <char-0x030C>  " caron
 ;_u <char-0x032F>  " non-syllabic mark
 ;_a <char-0x033A>  " apical mark
 ;_l <char-0x033B>  " laminal mark
