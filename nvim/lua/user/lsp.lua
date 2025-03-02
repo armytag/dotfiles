@@ -97,6 +97,9 @@ local servers = {
         name = 'tsserver',
         cmd = {'typescript-language-server', '--stdio'},
         settings = {
+            implicitProjectConfiguration = {
+                checkJs = true
+            },
         },
     },
 }
