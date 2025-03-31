@@ -22,6 +22,8 @@ f   <char-0x0066>  " voiceless labiodental fricative
 h   <char-0x0068>  " voiceless glottal fricative
 ;h; <char-0x0266>  " voiced glottal fricative
 i   <char-0x0069>  " close front unrounded vowel
+;i` <char-0x00ED>  " close front unrounded vowel with acute
+;i_`    <char-0x00EC>  " close front unrounded vowel with grave
 j   <char-0x006A>  " palatal approximant
 ;j; <char-0x029D>  " voiced palatal fricative
 k   <char-0x006B>  " voiceless velar plosive
