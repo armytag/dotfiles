@@ -94,7 +94,7 @@ local servers = {
     },
     -- Typescript LSP Settings
     {
-        name = 'tsserver',
+        name = 'ts_ls',
         cmd = {'typescript-language-server', '--stdio'},
         settings = {
             implicitProjectConfiguration = {
