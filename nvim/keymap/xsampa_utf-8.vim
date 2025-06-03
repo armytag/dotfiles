@@ -161,7 +161,7 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;_a <char-0x033A>  " apical mark
 ;_l <char-0x033B>  " laminal mark
 ;_;H    <char-0x0324>  " combining breathy voice
-;_;~    <char-0x0330>  " compbinig creaky voice
+;_;~    <char-0x0330>  " combining creaky voice
 ->  <char-0x2192>
 ;_' <char-0x0329>  " syllabic consonant below
 ;_;'    <char-0x030D>  " syllabic consonant above
