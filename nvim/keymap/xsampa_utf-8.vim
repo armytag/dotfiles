@@ -141,7 +141,8 @@ z   <char-0x007A>  " voiced alveolar fricative
 
 " COMBINING DIACRITICS
 ;_" <char-0x0308>  # centralized
-;_0 <char-0x0325>  " voiceless
+;_0 <char-0x0325>  " voiceless below
+;+0 <char-0x030A>  " voiceless above
 ;_> <char-0x02BC>  " ejective
 ;_] <char-0x031A>  " no audible release
 ;~  <char-0x0303>  " nasalization
