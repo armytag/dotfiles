@@ -60,6 +60,18 @@ require("lazy").setup({
     -- supercollider
     "davidgranstrom/scnvim",
     { "madskjeldgaard/sc-scratchpad.nvim", dependencies = { "MunifTanjim/nui.nvim" } },
+    -- typst
+    {
+      'kaarmu/typst.vim',
+      ft = 'typst',
+      lazy=false,
+    },
+    { 'chomosuke/typst-preview.nvim',
+        lazy = false,
+        -- ft = 'typst',
+        version = '1.*',
+        opts = {}, -- lazy.nvim will implicitly calls `setup {}`
+    }
 })
 
 require('lualine').setup()
