@@ -3,10 +3,9 @@ local map = function(mode, key, value)
 end
 
 -- Language Servers
-local lspconfig = require('lspconfig')
 map('n', '<leader>ef', ':lua vim.diagnostic.open_float()<CR>')
-map('n', '<leader>ek', ':lua vim.diagnostic.goto_prev()<CR>')
-map('n', '<leader>ej', ':lua vim.diagnostic.goto_next()<CR>')
+map('n', '<leader>ek', ':lua vim.diagnostic.jump({count=-1})<CR>:lua vim.diagnostic.open_float()<CR>')
+map('n', '<leader>ej', ':lua vim.diagnostic.jump({count=1})<CR>:lua vim.diagnostic.open_float()<CR>')
 map('n', '<leader>el', ':lua vim.diagnostic.setloclist()<CR>')
 
 local lsp_map = function(bufnr, mode, key, value)
@@ -56,13 +55,13 @@ local servers = {
                 diagnostics = {
                     globals = { 'vim' },
                 },
-                workspace = {
-                    checkThirdParty = false,
-                    library = {
-                        vim.api.nvim_get_runtime_file('', true),
-                        "${3rd}/love2d/library",
-                    }
-                },
+                -- workspace = {
+                --     checkThirdParty = false,
+                --     library = {
+                --         vim.api.nvim_get_runtime_file('', true),
+                --         "${3rd}/love2d/library",
+                --     }
+                -- },
 --                telemetry = {
 --                    enable = false,
 --                },
@@ -106,22 +105,23 @@ local servers = {
 
 for _, lsp in pairs(servers) do
     if lsp.cmd ~= nil then
-        lspconfig[lsp.name].setup {
+        vim.lsp.config(lsp.name, {
             on_attach = custom_attach,
             flags = {
                 debounce_text_changes = 150,
             },
             cmd = lsp.cmd,
             settings = lsp.settings,
-        }
+        })
     else
-        lspconfig[lsp.name].setup {
+        vim.lsp.config(lsp.name, {
             on_attach = custom_attach,
             flags = {
                 debounce_text_changes = 150,
             },
             settings = lsp.settings,
-        }
+        })
     end
+    vim.lsp.enable(lsp.name)
 end
 

@@ -17,12 +17,10 @@ end
 require('user.options')
 require('user.keymaps')
 require('user.filetypes')
--- require('user.godot')
 require('user.plugins')
 require('user.lsp')
 require('user.nvim-cmp')
 require('user.luasnip')
-require('user.treesitter')
 require('user.gitsigns')
 require('user.harpoon')
 

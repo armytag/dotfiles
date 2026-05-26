@@ -19,7 +19,7 @@ require("lazy").setup({
     -- Comment.nvim
     "numToStr/Comment.nvim",
     -- treesitter
-    {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
+    -- {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     -- gitsigns
     "lewis6991/gitsigns.nvim",
     -- lspconfig
