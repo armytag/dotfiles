@@ -158,11 +158,14 @@ z   <char-0x007A>  " voiced alveolar fricative
 ;_` <char-0x0300>  " grave mark
 ;`  <char-0x0301>  " acute mark
 ;_v <char-0x030C>  " caron
+;_^ <char-0x0302>  " circumflex
 ;_u <char-0x032F>  " non-syllabic mark
 ;_a <char-0x033A>  " apical mark
 ;_l <char-0x033B>  " laminal mark
 ;_;H    <char-0x0324>  " combining breathy voice
 ;_;~    <char-0x0330>  " combining creaky voice
+;_. <char-0x0323>  " combining underdot
+;+. <char-0x0307>  " combining overdot
 ->  <char-0x2192>
 ;_' <char-0x0329>  " syllabic consonant below
 ;_;'    <char-0x030D>  " syllabic consonant above
